@@ -1,3 +1,81 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://kimhyoseon.github.io"
+publishDir = "docs"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Kimhyoseon's BLOG"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = false
+pygmentsCodeFences = false
+pygmentsCodefencesGuessSyntax = false
+#pygmentsUseClassic = false
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "This is Kimhyoseon's blog on Hugo"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = false
+  readingTime = false
+  useHLJS = false
+  socialShare = false
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Kim hyo seon"
+  website = "https://kimhyoseon.github.io"
+  email = "khs7515@naver.com"
+  facebook = "khs7515"
+  #googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "kimhyoseon"
+  #gitlab = "username"
+  #bitbucket = "username"
+  #twitter = "username"
+  #reddit = "username"
+  #linkedin = "username"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  #instagram = "username"
+  #youtube = "user/username" # or channel/channelname
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  telegram = "khs7515"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Resume"
+    url = "resume/"
+    weight = 3

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Kimhyoseon&#39;s BLOG</title>
+    <link>https://kimhyoseon.github.io/tags/</link>
+    <description>Recent content in Tags on Kimhyoseon&#39;s BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>khs7515@naver.com (Kim hyo seon)</managingEditor>
+    <webMaster>khs7515@naver.com (Kim hyo seon)</webMaster>
+    
+	<atom:link href="https://kimhyoseon.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
