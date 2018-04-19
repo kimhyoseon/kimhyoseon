@@ -3,5 +3,5 @@
 
 ### https://kimhyoseon.github.io/
 
-## How to install
+## Use
 - ``Hugo`` - https://gohugo.io/
