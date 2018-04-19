@@ -1,5 +1,5 @@
 baseurl = "https://kimhyoseon.github.io"
-publishDir = "docs"
+publishDir = "/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Kimhyoseon's BLOG"
